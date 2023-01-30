@@ -9,12 +9,25 @@ body {
     padding: 20px 0;
 }
 
+hr { 
+    border: 1px solid;
+    width: 100%;
+}
+
 @media screen and (min-width: 140px) and (max-width: 380px) {
     body {
         width: 80%;
         margin: 0 auto;
         display: flex;
         flex-direction: column;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    hr { 
+        max-width: 250px;
     }
 
     nav {
@@ -28,10 +41,27 @@ body {
    body {
         width: 70%;
    }
+
+   hr {
+        max-width: 300px;
+   }
+
+   h1 {
+    font-size: 2rem;
+    }
+
 }
 
 @media screen and (min-width: 701px) {
     body {
         width: 90%;
+    }
+
+    hr {
+        max-width: 450px;
+    }
+
+    h1 {
+        font-size: 3rem;
     }
 }
