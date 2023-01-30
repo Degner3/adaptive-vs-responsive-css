@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: auto 20px;
+}
+
+h1 {
+    font-size: 2rem;
+
+    font-size: calc(1rem + 2vw);
+    margin-bottom: 1rem;
+}
+
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 2rem;
+    margin-bottom: 1rem;
+}
+
+ul a{
+    text-decoration: none;
+    background-color: deepskyblue;
+    border-radius: 20px;
+    padding: 10px 15px;
+    display: inline-block;
+}
+
+ul a:hover{
+    background-color: lightblue;
+}
+
+
+h2 {
+    font-size: 1.5rem;
+    font-size: calc(1rem + 1vw);
+    margin-bottom: 0.5rem;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+
+
